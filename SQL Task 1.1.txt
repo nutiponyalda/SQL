@@ -53,11 +53,12 @@ VARCHAR(10)(рассматриваются однобайтовые кодиро
 genre_id	INT PRIMARY KEY AUTO_INCREMENT
 name_genre	VARCHAR(30)
 Запрос:
-
+```SQL
 CREATE TABLE genre(
     genre_id INT PRIMARY KEY AUTO_INCREMENT, 
     name_genre VARCHAR(30)
 );
+```
 
 Задание
 Сформулируйте SQL запрос для создания таблицы book, занесите  его в окно кода (расположено ниже)  и отправьте на проверку (кнопка Отправить). Структура таблицы book:
